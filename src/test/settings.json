@@ -1,0 +1,39 @@
+{
+    "input": {
+        "testSuites": ["testSuite.json"],
+        "variables": []
+    },
+
+    "play": {
+        "mode": 2,
+        "entry": "",
+        "noLog": false,
+        "speed": 3,
+        "period": {
+            "time": -1,
+            "maxNum": -1
+        }
+    },
+
+    "report": {
+        "path": "../../reports/",
+        "snapshot": 1
+    },
+
+    "webdriver": {
+        "configs": [
+            {
+                "serverUrl": "http://140.134.26.76:38200",
+                "type": "selenium",
+                "browsers":[
+                    {
+                        "active": true,
+                        "capability": {
+                            "browserName": "chrome"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
