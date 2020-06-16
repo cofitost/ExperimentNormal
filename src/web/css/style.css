@@ -6,6 +6,11 @@
   margin: 10px;
 }
 
-p {
+#temperatureOutput p {
   font-size: 100px;
+}
+
+#errorBlock p {
+  font-size: 50px;
+  color: red;
 }
