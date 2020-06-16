@@ -1,0 +1,11 @@
+.container {
+  margin-top: 40px;
+}
+
+#temperatureInput * {
+  margin: 10px;
+}
+
+p {
+  font-size: 100px;
+}
