@@ -1,0 +1,381 @@
+{
+  "time": 1592390607323,
+  "version": {
+    "sideex": [
+      3,
+      3,
+      10
+    ],
+    "format": [
+      2,
+      0,
+      0
+    ]
+  },
+  "suites": [
+    {
+      "title": "Untitled Test Suite 1",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "Untitled Test Case 4",
+          "enableOnPlaying": true,
+          "networkSpeed": 1.69,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "http://localhost:58888/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(to Celsius)"
+                  },
+                  {
+                    "type": "id",
+                    "value": "id=radioC"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//label[@id='radioC']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='unit']/div[1]/label[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#radioC"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBsIAjBdgbQIBdCiAxhmYDFF7oArihEYIeUJADmAOQgBbBM0492ItABNmSCCcxQRUTigX4o8ydphRsYJBnYwDvEQAzDCQJKRk0eRF2KXpMLAB5JBNkZjIAX0opOhVwCE0dPXwrOFt7RxBnFFd3T292AAIqmosrDCaXDDcPLC8fGDQsdkG9ShioOOwklND8DKyoGlnVfK1dZkGaWXFKMABPGiKQVswyiAdmZq7a3vqBrC2dkFMw6XY5BUosQokGZG0uggwKkxrEwPFpqk5iBMqIoDhcFhZOx2AsbLg+IIFuJ8H8URgAO4hdgmBqSQIQBhIBBYP5ocTpIA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "-9,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(#temperatureInputNum)"
+                  },
+                  {
+                    "type": "id",
+                    "value": "id=temperatureInputNum"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/div[1]/div[2]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='temperatureInputNum']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureInput']/input[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#temperatureInputNum"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYCMMATATwG0CAXRZc0cAcNHiATMLRYaAVzASKIDGGZqMEPKEgBzAHIQAtgmbylmymi7MwCUzWT1FSBFeVZFptWB4XZh9TdmQ1ABsMKHpMLAB5JC5w-DIAX0pouj1wCGMzC3wpNTsHJxckNw8vGxAoCIgUFGYkDAB3AAIAK0UUMDQAMx4YKGxHLDARhAnwyiiY-uxE5KRmaRAM9SgaVdx9PJNzZgYAFkjo2KWklMINzKgcPdz8o-x2ZTBsbSx6tCgAawclSwKAAFABKc4LOLLG7pe5QPB8QT3TT4RzOVxgdwIXAdFCKdimNCaNJAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "122"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(Submit)"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@onclick='trans()']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureInput']/button[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYCMBXMMbAbQIBdCiAxhmKTuwC2acZQwQ8oSAHMAchGkJmXHthHYoAGzRQA1szBIIWFAAoAlCOMYo9TFgDySACbJmMgBfBSg6ZXAIDS0dfF80OBE0XysEaRpkek4kBDQsGm4REwgUFGYkDAB3AAIAK04UMDQAMwBPGChsMAQsMA6e7qQXNw9sH38h-AAmEBDRMMmVKM1tZjyC+RBk1PTMsGzc-O4sTmkRMFaM5hPpdgDKV3cmsb8A-GDQnFwT42NQqDwfEEoXE+G6uxs+xyuGqAAZAMCEsyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "31,14"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "Untitled Test Case 5",
+          "enableOnPlaying": true,
+          "networkSpeed": 1.69,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "http://localhost:58888/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(to Fahrenheit)"
+                  },
+                  {
+                    "type": "id",
+                    "value": "id=radioF"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/label[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//label[@id='radioF']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='unit']/div[2]/label[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#radioF"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAJgF0WAGwgAjBEO4F+FEBjDMwGAGYQGSBFgYI0Cyhgh5QkAOYA5CAFsEzEeKGy07ZkgicVsqCJQpmUAK4oSpYwUNhgSBhCMHYSssoYSIoqahpaOnogQhhQ9JhYAPJI7MjMZAC++lB0RuAQ5lY2+Jxwnt6++AFBGCFhWBFRAARdwTCu7sOBo30D0WhYQvM2lNm5YPlFJUn4vCCVctXbxvUW1szzNP6ZYACeNE0g45htED5+Uz2h4ZFzWJeZTmSqnUmm0ulkWEaim0SEsPQQYFKKxyeWwm1K+AqVRwuCw-iEQiqUDw3H4VQU+CUUAk6ECg0RlnurjA-g0uBQ-lElnB5SAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "-12,15"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(#temperatureInputNum)"
+                  },
+                  {
+                    "type": "id",
+                    "value": "id=temperatureInputNum"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/div[1]/div[2]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='temperatureInputNum']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureInput']/input[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#temperatureInputNum"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYCMMATATwG0CAXRZc0cAcNHiATMLRYaAVzASKIDGGZqMEPKEgBzAHIQAtgmbylmymi7MwCUzWT1FSBFeVZFptWB4XZh9TdmQ1ABsMKHpMLAB5JC5w-DIAX0pouj1wCGMzC3wpNTsHJxckNw8vGxAoCIgUFGYkDAB3AAIAK0UUMDQAMx4YKGxHLDARhAnwyiiY-uxE5KRmaRAM9SgaVdx9PJNzZgYAFkjo2KWklMINzKgcPdz8o-x2ZTBsbSx6tCgAawclSwKAAFABKc4LOLLG7pe5QPB8QT3TT4RzOVxgdwIXAdFCKdimNCaNJAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "50"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(Submit)"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@onclick='trans()']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureInput']/button[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYCMBXMMbAbQIBdCiAxhmKTuwC2acZQwQ8oSAHMAchGkJmXHthHYoAGzRQA1szBIIWFAAoAlCOMYo9TFgDySACbJmMgBfBSg6ZXAIDS0dfF80OBE0XysEaRpkek4kBDQsGm4REwgUFGYkDAB3AAIAK04UMDQAMwBPGChsMAQsMA6e7qQXNw9sH38h-AAmEBDRMMmVKM1tZjyC+RBk1PTMsGzc-O4sTmkRMFaM5hPpdgDKV3cmsb8A-GDQnFwT42NQqDwfEEoXE+G6uxs+xyuGqAAZAMCEsyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "44,6"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

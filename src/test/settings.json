@@ -23,7 +23,7 @@
     "webdriver": {
         "configs": [
             {
-                "serverUrl": "http://140.134.26.76:38200",
+                "serverUrl": "http://140.134.26.78:30080",
                 "type": "selenium",
                 "browsers":[
                     {
