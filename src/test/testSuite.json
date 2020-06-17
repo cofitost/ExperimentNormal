@@ -1,5 +1,5 @@
 {
-  "time": 1592408729682,
+  "time": 1592413257245,
   "version": {
     "sideex": [
       3,
@@ -18,9 +18,9 @@
       "enableOnPlaying": true,
       "cases": [
         {
-          "title": " Test C",
+          "title": "test toC",
           "enableOnPlaying": true,
-          "networkSpeed": 6.69,
+          "networkSpeed": 15.79,
           "records": [
             {
               "name": "open",
@@ -52,21 +52,66 @@
               }
             },
             {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=radioC"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//label[@id='radioC']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='unit']/div[1]/label[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#radioC"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "-17,11"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
               "name": "sendKeys",
               "target": {
                 "usedIndex": 0,
                 "options": [
                   {
                     "type": "id",
-                    "value": "id=temperatureInputC"
+                    "value": "id=temperatureInputNum"
                   },
                   {
                     "type": "xpath:position",
-                    "value": "//input[1]"
+                    "value": "//body[1]/div[1]/div[2]/input[1]"
                   },
                   {
                     "type": "xpath:attributes",
-                    "value": "//input[@id='temperatureInputC']"
+                    "value": "//input[@id='temperatureInputNum']"
                   },
                   {
                     "type": "xpath:idRelative",
@@ -74,7 +119,7 @@
                   },
                   {
                     "type": "css:position",
-                    "value": "css=#temperatureInputC"
+                    "value": "css=#temperatureInputNum"
                   }
                 ],
                 "tac": ""
@@ -84,7 +129,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "50"
+                    "value": "122"
                   }
                 ],
                 "tac": ""
@@ -125,219 +170,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "42,3"
-                  }
-                ],
-                "tac": ""
-              },
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              }
-            },
-            {
-              "name": "assertText",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "id",
-                    "value": "id=temperatureOutputNum"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//p[1]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//p[@id='temperatureOutputNum']"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureOutput']/p[1]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#temperatureOutputNum"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "122"
-                  }
-                ],
-                "tac": ""
-              },
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              }
-            },
-            {
-              "name": "assertText",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "id",
-                    "value": "id=outputUnit"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//p[2]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//p[@id='outputUnit']"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureOutput']/p[2]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#outputUnit"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "℉"
-                  }
-                ],
-                "tac": ""
-              },
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              }
-            }
-          ]
-        },
-        {
-          "title": "Test F",
-          "enableOnPlaying": true,
-          "networkSpeed": 2.8,
-          "records": [
-            {
-              "name": "open",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "http://140.134.26.76:58888/"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": ""
-                  }
-                ],
-                "tac": ""
-              },
-              "pwt": {
-                "pbw": 0,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              }
-            },
-            {
-              "name": "sendKeys",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "id",
-                    "value": "id=temperatureInputF"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//input[2]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//input[@id='temperatureInputF']"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureInput']/input[2]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#temperatureInputF"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "122"
-                  }
-                ],
-                "tac": ""
-              },
-              "pwt": {
-                "pbw": -3382,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              }
-            },
-            {
-              "name": "clickAt",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "xpath:position",
-                    "value": "//button[1]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//button[@onclick='trans()']"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureInput']/button[1]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=button"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "33,9"
+                    "value": "33,4"
                   }
                 ],
                 "tac": ""
@@ -442,9 +275,266 @@
           ]
         },
         {
-          "title": "Test error",
+          "title": "Test toF",
           "enableOnPlaying": true,
-          "networkSpeed": 6.23,
+          "networkSpeed": 15.79,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "http://140.134.26.76:58888/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=radioF"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/label[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//label[@id='radioF']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='unit']/div[2]/label[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#radioF"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "-16,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=temperatureInputNum"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/div[1]/div[2]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='temperatureInputNum']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureInput']/input[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#temperatureInputNum"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "50"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@onclick='trans()']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureInput']/button[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "40,4"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "assertText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=temperatureOutputNum"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//p[@id='temperatureOutputNum']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureOutput']/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#temperatureOutputNum"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "122"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "assertText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=outputUnit"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//p[@id='outputUnit']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureOutput']/p[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#outputUnit"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "℉"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "test empty",
+          "enableOnPlaying": true,
+          "networkSpeed": 8.94,
           "records": [
             {
               "name": "open",
@@ -504,7 +594,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "33,15"
+                    "value": "33,4"
                   }
                 ],
                 "tac": ""
@@ -527,7 +617,7 @@
                   },
                   {
                     "type": "xpath:position",
-                    "value": "//div[3]/p[1]"
+                    "value": "//div[4]/p[1]"
                   },
                   {
                     "type": "xpath:attributes",
@@ -564,9 +654,9 @@
           ]
         },
         {
-          "title": "Test no number",
+          "title": "test no number",
           "enableOnPlaying": true,
-          "networkSpeed": 8.44,
+          "networkSpeed": 19.04,
           "records": [
             {
               "name": "open",
@@ -598,29 +688,29 @@
               }
             },
             {
-              "name": "sendKeys",
+              "name": "clickAt",
               "target": {
                 "usedIndex": 0,
                 "options": [
                   {
                     "type": "id",
-                    "value": "id=temperatureInputC"
+                    "value": "id=radioF"
                   },
                   {
                     "type": "xpath:position",
-                    "value": "//input[1]"
+                    "value": "//div[2]/label[1]"
                   },
                   {
                     "type": "xpath:attributes",
-                    "value": "//input[@id='temperatureInputC']"
+                    "value": "//label[@id='radioF']"
                   },
                   {
                     "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureInput']/input[1]"
+                    "value": "//div[@id='unit']/div[2]/label[1]"
                   },
                   {
                     "type": "css:position",
-                    "value": "css=#temperatureInputC"
+                    "value": "css=#radioF"
                   }
                 ],
                 "tac": ""
@@ -630,52 +720,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "123"
-                  }
-                ],
-                "tac": ""
-              },
-              "pwt": {
-                "pbw": -14894,
-                "paw": 0,
-                "prw": 0,
-                "pdw": 0
-              }
-            },
-            {
-              "name": "sendKeys",
-              "target": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "id",
-                    "value": "id=temperatureInputF"
-                  },
-                  {
-                    "type": "xpath:position",
-                    "value": "//input[2]"
-                  },
-                  {
-                    "type": "xpath:attributes",
-                    "value": "//input[@id='temperatureInputF']"
-                  },
-                  {
-                    "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureInput']/input[2]"
-                  },
-                  {
-                    "type": "css:position",
-                    "value": "css=#temperatureInputF"
-                  }
-                ],
-                "tac": ""
-              },
-              "value": {
-                "usedIndex": 0,
-                "options": [
-                  {
-                    "type": "other",
-                    "value": "785"
+                    "value": "-16,10"
                   }
                 ],
                 "tac": ""
@@ -716,7 +761,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "42,20"
+                    "value": "42,8"
                   }
                 ],
                 "tac": ""
@@ -739,7 +784,7 @@
                   },
                   {
                     "type": "xpath:position",
-                    "value": "//div[3]/p[1]"
+                    "value": "//div[4]/p[1]"
                   },
                   {
                     "type": "xpath:attributes",
