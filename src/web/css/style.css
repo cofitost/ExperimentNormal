@@ -14,3 +14,18 @@
   font-size: 50px;
   color: red;
 }
+
+form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+form {
+  padding: 2%;
+}
+
+#login {
+  margin-top: 50px;
+}
