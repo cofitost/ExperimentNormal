@@ -1,5 +1,5 @@
 {
-  "time": 1592473226096,
+  "time": 1592498652748,
   "version": {
     "sideex": [
       3,
@@ -14,13 +14,13 @@
   },
   "suites": [
     {
-      "title": "Untitled Test Suite",
+      "title": "normal",
       "enableOnPlaying": true,
       "cases": [
         {
-          "title": "test toC",
+          "title": "test to C",
           "enableOnPlaying": true,
-          "networkSpeed": 15.79,
+          "networkSpeed": 9.29,
           "records": [
             {
               "name": "open",
@@ -46,6 +46,215 @@
               },
               "pwt": {
                 "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "393,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "root"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "350,20"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1234"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=login"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=continue"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='login']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#login"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 3,
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
@@ -84,7 +293,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "-17,11"
+                    "value": "-19,8"
                   }
                 ],
                 "tac": ""
@@ -170,7 +379,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "33,4"
+                    "value": "39,5"
                   }
                 ],
                 "tac": ""
@@ -238,19 +447,19 @@
                   },
                   {
                     "type": "xpath:position",
-                    "value": "//p[1]"
+                    "value": "//p[3]"
                   },
                   {
                     "type": "xpath:attributes",
-                    "value": "//p[@id='temperatureOutputNum']"
+                    "value": "//p[@id='outputUnit']"
                   },
                   {
                     "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureOutput']/p[1]"
+                    "value": "//div[@id='temperatureOutput']/p[3]"
                   },
                   {
                     "type": "css:position",
-                    "value": "css=#temperatureOutputNum"
+                    "value": "css=#outputUnit"
                   }
                 ],
                 "tac": ""
@@ -275,9 +484,9 @@
           ]
         },
         {
-          "title": "Test toF",
+          "title": "test to F",
           "enableOnPlaying": true,
-          "networkSpeed": 15.79,
+          "networkSpeed": 9.72,
           "records": [
             {
               "name": "open",
@@ -303,6 +512,215 @@
               },
               "pwt": {
                 "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "259,17"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "root"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "205,28"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1234"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=login"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=continue"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='login']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#login"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 3,
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
@@ -341,7 +759,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "-16,13"
+                    "value": "-19,9"
                   }
                 ],
                 "tac": ""
@@ -427,7 +845,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "40,4"
+                    "value": "44,11"
                   }
                 ],
                 "tac": ""
@@ -495,19 +913,19 @@
                   },
                   {
                     "type": "xpath:position",
-                    "value": "//p[1]"
+                    "value": "//p[3]"
                   },
                   {
                     "type": "xpath:attributes",
-                    "value": "//p[@id='temperatureOutputNum']"
+                    "value": "//p[@id='outputUnit']"
                   },
                   {
                     "type": "xpath:idRelative",
-                    "value": "//div[@id='temperatureOutput']/p[1]"
+                    "value": "//div[@id='temperatureOutput']/p[3]"
                   },
                   {
                     "type": "css:position",
-                    "value": "css=#temperatureOutputNum"
+                    "value": "css=#outputUnit"
                   }
                 ],
                 "tac": ""
@@ -534,7 +952,7 @@
         {
           "title": "test empty",
           "enableOnPlaying": true,
-          "networkSpeed": 8.94,
+          "networkSpeed": 17.26,
           "records": [
             {
               "name": "open",
@@ -571,6 +989,215 @@
                 "usedIndex": 0,
                 "options": [
                   {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "676,23"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "root"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "627,17"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1234"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=login"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=continue"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='login']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#login"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 2,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
                     "type": "xpath:position",
                     "value": "//button[1]"
                   },
@@ -594,7 +1221,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "33,4"
+                    "value": "31,17"
                   }
                 ],
                 "tac": ""
@@ -656,7 +1283,7 @@
         {
           "title": "test no number",
           "enableOnPlaying": true,
-          "networkSpeed": 19.04,
+          "networkSpeed": 10.91,
           "records": [
             {
               "name": "open",
@@ -682,6 +1309,215 @@
               },
               "pwt": {
                 "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "484,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=username"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='username']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"username\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "root"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "314,33"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@name='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[name=\"password\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1234"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=login"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=continue"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='login']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#login"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 2,
                 "paw": 0,
                 "prw": 0,
                 "pdw": 0
@@ -720,7 +1556,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "-16,10"
+                    "value": "-18,13"
                   }
                 ],
                 "tac": ""
@@ -761,7 +1597,7 @@
                 "options": [
                   {
                     "type": "other",
-                    "value": "42,8"
+                    "value": "36,17"
                   }
                 ],
                 "tac": ""
