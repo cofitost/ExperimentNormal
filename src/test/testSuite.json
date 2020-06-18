@@ -1,5 +1,5 @@
 {
-  "time": 1592413257245,
+  "time": 1592473226096,
   "version": {
     "sideex": [
       3,
@@ -171,6 +171,96 @@
                   {
                     "type": "other",
                     "value": "33,4"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "assertText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=temperatureOutputNum"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//p[@id='temperatureOutputNum']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureOutput']/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#temperatureOutputNum"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "50"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "assertText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=outputUnit"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//p[@id='temperatureOutputNum']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureOutput']/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#temperatureOutputNum"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "C"
                   }
                 ],
                 "tac": ""
@@ -383,6 +473,51 @@
                   {
                     "type": "other",
                     "value": "122"
+                  }
+                ],
+                "tac": ""
+              },
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              }
+            },
+            {
+              "name": "assertText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=outputUnit"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//p[@id='temperatureOutputNum']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='temperatureOutput']/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#temperatureOutputNum"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "F"
                   }
                 ],
                 "tac": ""
